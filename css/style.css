@@ -65,9 +65,7 @@ body {
   font-weight: 600;
   text-align: center;
   margin-bottom: 12px;
-}
-
-#infos {
+  text-transform: capitalize;
 }
 
 #temp {
@@ -150,4 +148,28 @@ body {
 
 #wind_ico {
   color: #0e2996;
+}
+
+#alert {
+  display: none;
+}
+
+#alert p {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #890909;
+}
+
+#alert img {
+  width: 200px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+#alert.show {
+  display: block;
+  margin: auto;
+  width: 50%;
 }

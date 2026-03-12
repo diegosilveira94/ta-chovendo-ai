@@ -47,7 +47,7 @@ async function fetchCity(city) {
 
 // fetch api forecast
 async function fetchForecast(data) {
-  const apiUrlForecast = `https://api.openweathermap.org/data/2.5/weather?lat=${data.lat}&lon=${data.lon}&units=metric&lang=pt-br&appid=${API_KEY}`
+  const apiUrlForecast = `https://api.openweathermap.org/data/2.5/weather?lat=${data.lat}&lon=${data.lon}&units=metric&lang=pt_br&appid=${API_KEY}`
 
   try {
     const response = await fetch(apiUrlForecast)
